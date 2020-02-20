@@ -9,6 +9,61 @@
 /*----------------------------------------*/
 /* Template default CSS
 /*----------------------------------------*/
+.button {
+
+	display: inline-block;
+	height: 40px;
+	line-height: 40px;
+	padding-right: 30px;
+	padding-left: 70px;
+	position: relative;
+	background-color:rgb(0,0,0);
+	color:rgb(255,255,255);
+	text-decoration: none;
+	text-transform: none
+	letter-spacing: 1px;
+	margin-bottom: 14px;
+	text-shadow:1px 1px 0px rgba(0,0,0,0.5);
+  }
+  
+  .button:hover{
+	text-decoration: none;
+	color: #fff;
+	text-shadow: none;
+  }
+  
+  .button p{
+	  font-size: 18px;
+	  line-height: 40px;
+	  color: white;
+	}
+  .button span {
+	position: absolute;
+	left: 0;
+	width: 50px;
+	font-size:30px;
+	-webkit-border-top-left-radius: 5px;
+  -webkit-border-bottom-left-radius: 5px;
+  -moz-border-radius-topleft: 5px;
+  -moz-border-radius-bottomleft: 5px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-right: 1px solid  rgba(0,0,0,0.15);
+	  text-decoration: none;
+  }
+  
+  .sharebtn{
+	  padding: 10px;
+	  padding-right: 5%;
+	  float: right;
+  }
+  
+  .button.facebook {
+   background: #3b5998;
+   text-align: center;
+
+  }
+  
 .tales {
 	width: 100%;
 }

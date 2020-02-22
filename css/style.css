@@ -63,6 +63,12 @@
    text-align: center;
 
   }
+
+  .button.twitter {
+	  background-color: #00cdff;
+	  text-align: center;
+  }
+
   
 .tales {
 	width: 100%;
@@ -78,8 +84,10 @@ max-height: 600px !important;
 }
 
 .middletext{
+	padding-top: 100px;
 	width: 90%;
 	margin: auto;
+	display: block;
 }
 
 html,

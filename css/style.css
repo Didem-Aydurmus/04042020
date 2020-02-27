@@ -4,6 +4,10 @@
   Version: 1.0
  ------------------------------------
  ====================================*/
+#material-bg , #aktionen-bg{
+	background-size: contain;
+    background-repeat: repeat;
+}
 
 
 /*----------------------------------------*/
@@ -1021,7 +1025,7 @@ ol {
 }
 
 .hero-text h2 {
-	color: #fff;
+	color: dodgerblue;
 	font-size: 60px;
 	font-weight: 900;
 }

@@ -15,8 +15,17 @@
     $(window).on('load', function () {
         $(".loader").fadeOut();
         $("#preloder").delay(400).fadeOut("slow");
+        $('#myModal').show();
     });
 
+    $("#myModal > div > span").click(function(){
+        $("#myModal").hide();
+    });
+    $(window).click(function(e) {
+        if(e.target == $("#myModal")[0] ){
+            $('#myModal').hide();
+        }; 
+    });
     /*------------------
         Background Set
     --------------------*/
